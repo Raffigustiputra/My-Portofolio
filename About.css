@@ -1,0 +1,70 @@
+@import url('http://fonts.googleapis.com/css/family=Quicksand:400,500&subset=latin-ext');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}   
+
+.logo {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+
+.logo span {
+    color: rgb(244, 39, 255);
+}  
+
+.navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 35px;
+    font-weight: 500;
+
+}
+
+.navigation a:hover {
+color: rgb(244, 39, 255);
+}
+
+.btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: rgb(244, 39, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(244, 39, 255)t;
+    font-weight: 500;
+    transition: 3s;
+} 
+
+.btn-talk:hover {
+color: rgb(244, 39, 255);
+background: transparent;
+}
+
+body {
+    background-color:white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.kotak-1 {
+    background-color: white;     
+    border-radius: 10px;
+    margin-top: 1%;
+    padding: 315px;
+}
