@@ -17,6 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-color: #fff;
 }   
 
 
@@ -125,3 +126,33 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+.social-icons {
+    /* position: absolute; */
+    margin-top: -8%;
+    position: absolute;
+    margin-left: 7%;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: rgb(244, 39, 255);
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid rgb(244, 39, 255);
+    transition: .3s;
+    margin-bottom: 70px;
+}
+
+.social-icons a:hover {
+    transform: translate(-5px);
+}
+
+.social-icons a i {
+    color: white;
+
+}
